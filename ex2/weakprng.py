@@ -18,7 +18,7 @@ class WeakPrng(object):
         # z_{i+1} = x_{i+1} xor y_{i+1}
         return (self.x ^ self.y) 
 
-
-prng = WeakPrng(P)
-for i in range(1, 10):
-  print "output #%d: %d" % (i, prng.next())
+if __name__ == '__main__':
+    prng = WeakPrng(P)
+    for i in range(1, 10):
+      print "output #%d: %d" % (i, prng.next())
