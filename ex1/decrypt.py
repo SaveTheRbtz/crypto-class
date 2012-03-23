@@ -13,6 +13,8 @@ def xor_combinations(data):
     """
     Returns all posible combinations of XORs between data entries
 
+    TODO: use numpy arrays
+
     >>> list(xor_combinations(["AAA","AAA"]))
     [('AAA', 'AAA', '\x00\x00\x00')]
     >>> list(xor_combinations(["AAA","BBB", "CCCC"]))
