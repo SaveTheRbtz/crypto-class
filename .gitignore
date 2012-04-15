@@ -1,0 +1,9 @@
+.*.sw?
+*.pyc
+*.pyo
+src/log/
+src/db/
+src/hooks/
+src/hw_watcher.conf
+.idea/
+doc/.build/
